@@ -13,7 +13,7 @@ recommended.addEventListener('click', () => {
   featured.classList.remove('active-link');
   recommended.classList.add('active-link');
   genre.textContent = 'Fiction';
-  time.textContent = 'This Millenia';
+  time.textContent = 'This Millennium';
 });
 
 featured.addEventListener('click', () => {
