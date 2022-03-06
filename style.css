@@ -126,6 +126,7 @@ main {
 
 .featured-books {
   display: flex;
+  gap: 3rem;
 }
 
 .featured-book-cont {
@@ -166,7 +167,7 @@ main {
 
 .general-books-row {
   display: flex;
-  gap: 3rem;
+  gap: 3.5rem;
 }
 
 .general-book-cont {
