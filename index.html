@@ -33,8 +33,8 @@
         <ul class="book-categories">
           <li>New Releases</li>
           <li>In Demand</li>
-          <li>Recommendations</li>
-          <li>Featured</li>
+          <li class="recommended">Recommendations</li>
+          <li class="featured active-link">Featured</li>
           <li>People</li>
         </ul>
         <p class="nav-heading">Book Circles</p>
@@ -42,7 +42,7 @@
           <li>Fantasy</li>
           <li>Classics</li>
           <li>Favorite Novels</li>
-          <li>Alabhya's Favorite</li>
+          <li>Alabhya's Favorites</li>
         </ul>
       </section>
       <section class="main-wrap">
@@ -50,7 +50,7 @@
           <h1 class="book-heading">Featured</h1>
           <div class="filters">
             <div class="filter-option">
-              <p>Fantasy</p>
+              <p class="genre-filter">Nonfiction</p>
               <ion-icon name="chevron-down-outline"></ion-icon>
             </div>
             <div class="filter-option">
@@ -65,6 +65,101 @@
           </div>
         </div>
         <div class="books">
+          <div class="featured-books">
+            <div class="featured-book-cont">
+              <img
+                src="./books/featured-books/lotr-two-towers.jpg"
+                class="featured-book-image"
+              />
+              <img
+                src="./books/featured-books/lotr-two-towers-book-cover.jpg"
+                class="featured-book-cover"
+              />
+              <p class="featured-book-title">The Two Towers</p>
+              <p class="featured-book-author">J. R. R. Tolkien &bull; 1954</p>
+            </div>
+            <div class="featured-book-cont">
+              <img
+                src="./books/featured-books/crime-and-punishment.jpg"
+                class="featured-book-image"
+              />
+              <img
+                src="./books/featured-books/crime-and-punishment-book-cover.jpg"
+                class="featured-book-cover"
+              />
+              <p class="featured-book-title">Crime and Punishment</p>
+              <p class="featured-book-author">Fyodor Dostoevsky &bull; 1866</p>
+            </div>
+          </div>
+          <div class="general-books">
+            <div class="general-books-row">
+              <div class="general-book-cont">
+                <img
+                  src="./books/general-books/quiet.jpeg"
+                  class="general-book-cover"
+                />
+                <p class="general-book-title">Quiet</p>
+                <p class="general-book-author">Susan Cain &bull; 2012</p>
+              </div>
+              <div class="general-book-cont">
+                <img
+                  src="./books/general-books/factfulness.jpg"
+                  class="general-book-cover"
+                />
+                <p class="general-book-title">Factfulness</p>
+                <p class="general-book-author">Hans Rosling &bull; 2018</p>
+              </div>
+              <div class="general-book-cont">
+                <img
+                  src="./books/general-books/geb.webp"
+                  class="general-book-cover"
+                />
+                <p class="general-book-title">Gödel, Escher, Bach</p>
+                <p class="general-book-author">
+                  Douglas Hofstadter &bull; 1979
+                </p>
+              </div>
+              <div class="general-book-cont">
+                <img
+                  src="./books/general-books/infinity.jpg"
+                  class="general-book-cover"
+                />
+                <p class="general-book-title">The Beginnning of Infinity</p>
+                <p class="general-book-author">David Deutsch &bull; 2011</p>
+              </div>
+              <div class="general-book-cont">
+                <img
+                  src="./books/general-books/skin-in-the-game.jpg"
+                  class="general-book-cover"
+                />
+                <p class="general-book-title">Skin in the Game</p>
+                <p class="general-book-author">
+                  Nassim Nicholas Taleb &bull; 2018
+                </p>
+              </div>
+              <div class="general-book-cont">
+                <img
+                  src="./books/general-books/mortality.jpg"
+                  class="general-book-cover"
+                />
+                <p class="general-book-title">Mortality</p>
+                <p class="general-book-author">
+                  Christopher Hitchens &bull; 2012
+                </p>
+              </div>
+              <div class="general-book-cont">
+                <img
+                  src="./books/general-books/shoe-dog.jpg"
+                  class="general-book-cover"
+                />
+                <p class="general-book-title">Shoe Dog</p>
+                <p class="general-book-author">Phil Knight &bull; 2016</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- RECOMMENDATIONS -->
+        <div class="r-books">
           <div class="featured-books">
             <div class="featured-book-cont">
               <img
