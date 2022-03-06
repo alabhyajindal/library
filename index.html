@@ -9,7 +9,56 @@
     <title>Library</title>
   </head>
   <body>
+    <!-- Header -->
+    <header class="head">
+      <img src="./logo.png" class="logo" />
+      <div class="search-cont">
+        <ion-icon name="search-outline"></ion-icon>
+        <input class="search" placeholder="Search..." />
+        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+      </div>
+      <div class="user-actions">
+        <button class="btn upgrade">Upgrade</button>
+        <ion-icon
+          name="notifications-outline"
+          class="notification-icon"
+        ></ion-icon>
+        <img src="./user.jpeg" class="user" />
+      </div>
+    </header>
+    <!-- Sidebar -->
+    <section id="sidebar">
+      <div class="category">
+        <ul class="book-category">
+          <li>New Releases</li>
+          <li>In Deman</li>
+          <li>Recommendataions</li>
+          <li>Features</li>
+          <li>People</li>
+        </ul>
+      </div>
+      <div class="book-circle">
+        <h2>Book Circles</h2>
+        <ul>
+          <li>Fantasy</li>
+          <li>Classics</li>
+          <li>Favourite Novels</li>
+          <li>For Li</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Books -->
+    <main></main>
     <!-- JS -->
     <script src="./app.js"></script>
+    <!-- Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
