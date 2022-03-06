@@ -4,7 +4,8 @@
 #ccc,
 #555,
 #777,
-#fff
+#fff,
+#ddd
  */
 
 * {
@@ -85,6 +86,9 @@ main {
 
   font-family: sans-serif;
   color: #777;
+
+  display: flex;
+  gap: 5rem;
 }
 
 .book-heading {
@@ -94,9 +98,14 @@ main {
 }
 
 .filters {
-  margin-top: 1rem;
+  margin: 1rem 0;
   display: flex;
   gap: 3rem;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px #ddd solid;
 }
 
 .filter-option {
@@ -112,8 +121,73 @@ main {
   margin-left: auto;
 }
 
-/* Sidebar design */
+.featured-books {
+  display: flex;
+}
 
-.sidebar {
-  height: 100%;
+.featured-book-image {
+  width: 40vw;
+  height: 30rem;
+}
+
+.featured-book-cover {
+  height: 8rem;
+  z-index: 100;
+  position: relative;
+  right: 48rem;
+  bottom: 3rem;
+}
+
+.featured-book-title {
+  color: #fff;
+  font-size: 2.7rem;
+
+  position: relative;
+  bottom: 10rem;
+  left: 10rem;
+}
+
+.featured-book-author {
+  color: #fff;
+  font-size: 1.2rem;
+
+  position: relative;
+  bottom: 9.5rem;
+  left: 10rem;
+}
+
+.general-book-cover {
+  width: 12rem;
+}
+
+/* SIDEBAR */
+
+.book-categories {
+  font-family: serif;
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.nav-heading {
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+
+  font-size: 1.3rem;
+  letter-spacing: 0.3px;
+}
+
+.book-circles {
+  list-style-type: none;
+  font-size: 1.3rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
 }

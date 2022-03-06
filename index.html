@@ -26,51 +26,85 @@
         <img src="./user.jpeg" class="user" />
       </div>
     </header>
-    <!-- Sidebar -->
-    <section id="sidebar">
-      <div class="category">
-        <ul class="book-category">
-          <li>New Releases</li>
-          <li>In Deman</li>
-          <li>Recommendataions</li>
-          <li>Features</li>
-          <li>People</li>
-        </ul>
-      </div>
-      <div class="book-circle">
-        <h2>Book Circles</h2>
-        <ul>
-          <li>Fantasy</li>
-          <li>Classics</li>
-          <li>Favourite Novels</li>
-          <li>For Li</li>
-        </ul>
-      </div>
-    </section>
     <!-- Books -->
     <main>
-      <div class="book-header">
-        <h1 class="book-heading">Featured</h1>
-        <div class="filters">
-          <div class="filter-option">
-            <p>Fantasy</p>
-            <ion-icon name="chevron-down-outline"></ion-icon>
-          </div>
-          <div class="filter-option">
-            <p>Popular</p>
-            <ion-icon name="chevron-down-outline"></ion-icon>
-          </div>
-          <div class="filter-option time-filter-option">
-            <ion-icon name="time-outline"></ion-icon>
-            <p>This Decade</p>
-            <ion-icon name="chevron-down-outline"></ion-icon>
+      <!-- Sidebar -->
+      <section class="sidebar">
+        <ul class="book-categories">
+          <li>New Releases</li>
+          <li>In Demand</li>
+          <li>Recommendations</li>
+          <li>Featured</li>
+          <li>People</li>
+        </ul>
+        <p class="nav-heading">Book Circles</p>
+        <ul class="book-circles">
+          <li>Fantasy</li>
+          <li>Classics</li>
+          <li>Favorite Novels</li>
+          <li>Alabhya's Favorite</li>
+        </ul>
+      </section>
+      <section class="main-wrap">
+        <div class="book-header">
+          <h1 class="book-heading">Featured</h1>
+          <div class="filters">
+            <div class="filter-option">
+              <p>Fantasy</p>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+            <div class="filter-option">
+              <p>Popular</p>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+            <div class="filter-option time-filter-option">
+              <ion-icon name="time-outline"></ion-icon>
+              <p>This Decade</p>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="books">
-        <div class="featured-books"></div>
-        <div class="general-books"></div>
-      </div>
+        <div class="books">
+          <div class="featured-books">
+            <div class="featured-book-cont">
+              <img
+                src="./books/featured-books/lotr-two-towers.jpg"
+                class="featured-book-image"
+              />
+              <img
+                src="./books/featured-books/lotr-two-towers-book-cover.jpg"
+                class="featured-book-cover"
+              />
+              <p class="featured-book-title">The Two Towers</p>
+              <p class="featured-book-author">J. R. R. Tolkien &bull; 1954</p>
+            </div>
+            <div class="featured-book-cont">
+              <img
+                src="./books/featured-books/crime-and-punishment.jpg"
+                class="featured-book-image"
+              />
+              <img
+                src="./books/featured-books/crime-and-punishment-book-cover.jpg"
+                class="featured-book-cover"
+              />
+              <p class="featured-book-title">Crime and Punishment</p>
+              <p class="featured-book-author">Fyodor Dostoevsky &bull; 1866</p>
+            </div>
+          </div>
+          <div class="general-books">
+            <div class="general-books-row">
+              <div class="general-book-cont">
+                <img
+                  src="./books/general-books/the-silent-patient.jpg"
+                  class="general-book-cover"
+                />
+                <p class="general-book-title">The Silent Patient</p>
+                <p class="general-book-author">Alex Michaelidis &bull; 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- JS -->
     <script src="./app.js"></script>
