@@ -4,6 +4,7 @@ const books = document.querySelector('.books');
 const rBooks = document.querySelector('.r-books');
 const heading = document.querySelector('.book-heading');
 const genre = document.querySelector('.genre-filter');
+const time = document.querySelector('.filter-timeline');
 
 recommended.addEventListener('click', () => {
   books.style.display = 'none';
@@ -12,6 +13,7 @@ recommended.addEventListener('click', () => {
   featured.classList.remove('active-link');
   recommended.classList.add('active-link');
   genre.textContent = 'Fiction';
+  time.textContent = 'This Millenia';
 });
 
 featured.addEventListener('click', () => {
@@ -22,4 +24,5 @@ featured.addEventListener('click', () => {
   recommended.classList.remove('active-link');
   featured.classList.add('active-link');
   genre.textContent = 'Nonfiction';
+  time.textContent = 'Common Era';
 });
