@@ -2,6 +2,7 @@
 
 /* Colors
 #ccc,
+#555,
 #777,
 #fff
  */
@@ -75,6 +76,40 @@ html {
 .user {
   border-radius: 50%;
   height: 6rem;
+}
+
+/* MAIN */
+
+main {
+  margin-top: 3rem;
+
+  font-family: sans-serif;
+  color: #777;
+}
+
+.book-heading {
+  color: #555;
+  padding-bottom: 2rem;
+  border-bottom: 1px #ccc solid;
+}
+
+.filters {
+  margin-top: 1rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.filter-option {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.filter-option p {
+  text-transform: uppercase;
+}
+
+.time-filter-option {
+  margin-left: auto;
 }
 
 /* Sidebar design */
